@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://86n7adyspvrw"]
+
+[ext_resource type="PackedScene" uid="uid://x244qlu7usfq" path="res://models&textures/Tiny_Treats_Pretty_Park_1.0_FREE/fbx/hedge_straight.fbx" id="1_fmufi"]
+
+[node name="hedge_straight" instance=ExtResource("1_fmufi")]
+
+[node name="CollisionShape3D" parent="hedge_straight/StaticBody3D" index="0"]
+transform = Transform3D(-0.00293732, 0, 0, 0, 1, -2.84217e-14, 0, 2.84217e-14, 1, -0.00936834, 0, 0)
